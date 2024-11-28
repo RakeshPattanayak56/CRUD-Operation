@@ -54,6 +54,7 @@ namespace CrudUsingnetCore.Controllers
             response = dal.UpdateEmployee(connection, employee);
             return response;
         }
+        Testing Tesing//
         [HttpDelete]
         [Route("DeleteEmployee/{id}")]
         public response DeleteEmployee(int id)
@@ -64,6 +65,5 @@ namespace CrudUsingnetCore.Controllers
             response = dAL.DeleteEmployee(connection,id);
             return response;
         }
-        Testing;
     }
 }
